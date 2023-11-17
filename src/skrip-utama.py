@@ -1,14 +1,15 @@
-from luas.segitiga import luas_segitiga
-from luas import lingkaran, persegi, segitiga
-from volume.kubik import volume_kubik
-import volume.bola
-from volume.prisma import *
+from luas.segitiga import luas as ls
+from luas.lingkaran import luas as ll
+from luas.persegi import luas as lp
+from volume.kubus import volume as vk
+from volume.bola import volume as vb
+from volume.prisma import volume as vp
 
-print("luas segitiga :", luas_segitiga(9,6))
-print("luas lingkaran :", lingkaran.luas_lingkaran(7))
-print("luas persegi :", persegi.luas_persegi(9))
-print("volume segitiga :", volume_kubik(6))
-print("volume bola :", volume.bola.volume_bola(8))
-print("volume prisma :", volume_prisma(6,3,5))
+print("luas segitiga :", ls(26, 3))
+print("luas lingkaran :", ll(21))
+print("luas persegi :",lp(4))
+print("volume kubus :",vk(8))
+print("volume bola :",vb(8))
+print("volume prisma :",vp(6,9,20))
 
 # panggil fungsi masing-masing

@@ -1,2 +1,2 @@
-def volume_bola(r):
+def volume(r):
     return 4/3 * 3.14 * r * r * r

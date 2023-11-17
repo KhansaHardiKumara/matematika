@@ -1,2 +1,2 @@
-def volume_kubik(sisi):
+def volume(sisi):
   return sisi * sisi * sisi

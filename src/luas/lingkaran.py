@@ -1,2 +1,2 @@
-def luas_lingkaran (radius):
+def luas(radius):
     return 3.14 * radius *radius
